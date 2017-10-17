@@ -1,0 +1,6 @@
+LateX/æwiczenia.aux
+LateX/æwiczenia.bbl
+LateX/æwiczenia.blg
+LateX/æwiczenia.dvi
+LateX/æwiczenia.log
+LateX/æwiczenia.pdf
