@@ -1,6 +1,8 @@
 \documentclass{article}
 \usepackage[a4paper,left=3.5cm,right=2.5cm,top=2.5cm,bottom=2.5cm]{geometry}
-\usepackage[MeX]{polski}
+%%\usepackage[MeX]{polski}
+%%\usepackage[cp1250]{inputenc}
+\usepackage{polski}
 \usepackage[utf8]{inputenc}
 \usepackage{hyperref}
 \usepackage{makeidx}
@@ -11,6 +13,50 @@
 \usepackage{multirow}
 \usepackage{amsmath} %pakiet matematyczny
 \usepackage{amssymb} %pakiet dodatkowych symboli
+\usepackage{latexsym}
+\DeclareMathOperator{\symbol1}{\prod}
 \begin{document}
-Tu umieszczamy kod TeXa, który bedzie kompilowany,
+\begin{math}
+\big( a_1=a_1(x)\big) \wedge \big( a_2=a_2(x)\big) \wedge \dots \wedge \big( a_k=a_k(x)\big) \Rightarrow \big( d=d(u) \big)
+\end{math}
+
+$[x]_A=\{y \in U:a(x)=a(y),\forall a \in A \}$, where the central object $x \in U$
+
+$g(u,r)=\{v \in U:\frac{card\{IND(u,v)\}}{card\{A\}} \geq r \}$
+
+where, $IND(u,v)=\{a \in A:a(u)=a(v)\}$
+
+$T:[0,1]\times [0,1] \rightarrow [0,1]$
+
+$x \Rightarrow_T y\geq r$ if and only if $T(x,r) \leq y$
+
+$x \Rightarrow_T y=max\{r:T(x,r) \leq y\}$
+
+$\mu_T(x,y,r)$ if and only if $x \Rightarrow_T y \geq r$
+
+$dis_\varepsilon (u,v)=\frac{| \{a \in A :\| a(u)-a(v)\| \geq \varepsilon \} | }{|A| }$
+
+$ind_\varepsilon (u,v)=\frac{| \{a \in A :\| a(u)-a(v)\| < \varepsilon \} | }{|A| }$
+
+$Param(v_d)=\sum_{\{v \in U_trn :d(v)=v_d\} }{w(v,u,\varepsilon)}$
+
+$Param(v_d)=\sum_{\{v_p \in U_trn :d(v_p)=v_d\} }{w(u_p,v_p)}$
+
+$S^{C_i}(a)=\frac{(\overline{C}_{i}^{a} - \widehat{C}_{i}^{a})^{2}}{Z_{\overline{C}_{i}^{a}} + Z_{\widehat{C}_{i}^{a}}}, a \in A$
+
+16
+
+3. c2\_P.pdf
+\begin{math}
+\end{math}
+\begin{math}
+\end{math}
+\begin{math}
+\end{math}
+\begin{math}
+\end{math}
+\begin{math}
+\end{math}
+\begin{math}
+\end{math}
 \end{document}
