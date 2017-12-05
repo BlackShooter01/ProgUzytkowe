@@ -1,0 +1,1373 @@
+
+	This is a Classroom License for instructional use only.
+	Research and commercial use is prohibited.
+>> klucz=2
+
+klucz =
+
+     2
+
+>> A=(7,7)
+??? A=(7,7)
+        |
+Error: Expression or statement is incorrect--possibly unbalanced (, {, or [.
+ 
+>> A=(7;7)
+??? A=(7;7)
+        |
+Error: Unbalanced or unexpected parenthesis or bracket.
+ 
+>> A=[7;7}
+??? A=[7;7}
+          |
+Error: Unbalanced or unexpected parenthesis or bracket.
+ 
+>> A(7,7)
+
+ans =
+
+     1
+
+>> zeros(7,7)
+
+ans =
+
+     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0
+
+>> A=zeros(7,7)
+
+A =
+
+     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0
+
+>> A(3,4)
+
+ans =
+
+     0
+
+>> A(6,3=pi
+??? A(6,3=pi
+         |
+Error: The expression to the left of the equals sign is not a valid target for an assignment.
+ 
+>> A(6,3)=pi
+
+A =
+
+         0         0         0         0         0         0         0
+         0         0         0         0         0         0         0
+         0         0         0         0         0         0         0
+         0         0         0         0         0         0         0
+         0         0         0         0         0         0         0
+         0         0    3.1416         0         0         0         0
+         0         0         0         0         0         0         0
+
+>> C=B(1-3,2-6)
+??? Undefined function or method 'B' for input arguments of type 'double'.
+ 
+>> C:=B(1-3,2-6)
+??? C:=B(1-3,2-6)
+      |
+Error: The expression to the left of the equals sign is not a valid target for an assignment.
+ 
+>> C=B(1:3,2:6)
+??? Undefined function or method 'B' for input arguments of type 'double'.
+ 
+>> C=B([1 2 3],[2 3 4 5 6])
+??? Undefined function or method 'B' for input arguments of type 'double'.
+ 
+>> B=A([1 2 3],[2 3 4 5 6])
+
+B =
+
+     0     0     0     0     0
+     0     0     0     0     0
+     0     0     0     0     0
+
+>> C=A(:,1:3)
+
+C =
+
+         0         0         0
+         0         0         0
+         0         0         0
+         0         0         0
+         0         0         0
+         0         0    3.1416
+         0         0         0
+
+>> D=A([4 5 6 7],:)
+
+D =
+
+         0         0         0         0         0         0         0
+         0         0         0         0         0         0         0
+         0         0    3.1416         0         0         0         0
+         0         0         0         0         0         0         0
+
+>> A=[1 2 3 4 5 6 7; 1 2 3 4 5 6 7]
+
+A =
+
+     1     2     3     4     5     6     7
+     1     2     3     4     5     6     7
+
+>> zeros(7,7)
+
+ans =
+
+     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0
+
+>> ones(7,7)
+
+ans =
+
+     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1
+
+>> rand(7,7)
+
+ans =
+
+    0.8147    0.5469    0.8003    0.0357    0.6555    0.8235    0.7655
+    0.9058    0.9575    0.1419    0.8491    0.1712    0.6948    0.7952
+    0.1270    0.9649    0.4218    0.9340    0.7060    0.3171    0.1869
+    0.9134    0.1576    0.9157    0.6787    0.0318    0.9502    0.4898
+    0.6324    0.9706    0.7922    0.7577    0.2769    0.0344    0.4456
+    0.0975    0.9572    0.9595    0.7431    0.0462    0.4387    0.6463
+    0.2785    0.4854    0.6557    0.3922    0.0971    0.3816    0.7094
+
+>> ones(7,7)
+
+ans =
+
+     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1
+
+>> F=A(logical([1 0 1 0 0 1 0]),logical([0 1 0 1 1 0 0]))
+??? Index exceeds matrix dimensions.
+ 
+>> F=A(logical([1 0 1 0 0 1 0]),logical(0 1 0 1 1 0 0))
+??? F=A(logical([1 0 1 0 0 1 0]),logical(0 1 0 1 1 0 0))
+                                           |
+Error: Unexpected MATLAB expression.
+ 
+>> F=A(logical([1 0 1 0 0 1 0]),logical([0 1 0 1 1 0 0]))
+??? Index exceeds matrix dimensions.
+ 
+>> V=A(:)
+
+V =
+
+     1
+     1
+     2
+     2
+     3
+     3
+     4
+     4
+     5
+     5
+     6
+     6
+     7
+     7
+
+>> A
+
+A =
+
+     1     2     3     4     5     6     7
+     1     2     3     4     5     6     7
+
+>> A=zeros(7,7)
+
+A =
+
+     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0
+
+>> A(3,4)=pi
+
+A =
+
+  Columns 1 through 6
+
+         0         0         0         0         0         0
+         0         0         0         0         0         0
+         0         0         0    3.1416         0         0
+         0         0         0         0         0         0
+         0         0         0         0         0         0
+         0         0         0         0         0         0
+         0         0         0         0         0         0
+
+  Column 7
+
+         0
+         0
+         0
+         0
+         0
+         0
+         0
+
+>> F=A(logical([1 0 1 0 0 1 0]),logical([0 1 0 1 1 0 0]))
+
+F =
+
+         0         0         0
+         0    3.1416         0
+         0         0         0
+
+>> V=A(:)
+
+V =
+
+         0
+         0
+         0
+         0
+         0
+         0
+         0
+         0
+         0
+         0
+         0
+         0
+         0
+         0
+         0
+         0
+         0
+         0
+         0
+         0
+         0
+         0
+         0
+    3.1416
+         0
+         0
+         0
+         0
+         0
+         0
+         0
+         0
+         0
+         0
+         0
+         0
+         0
+         0
+         0
+         0
+         0
+         0
+         0
+         0
+         0
+         0
+         0
+         0
+         0
+
+>> G=A(1:6,1:6)
+
+G =
+
+         0         0         0         0         0         0
+         0         0         0         0         0         0
+         0         0         0    3.1416         0         0
+         0         0         0         0         0         0
+         0         0         0         0         0         0
+         0         0         0         0         0         0
+
+>> reshape(G,4,9)
+
+ans =
+
+  Columns 1 through 6
+
+         0         0         0         0         0    3.1416
+         0         0         0         0         0         0
+         0         0         0         0         0         0
+         0         0         0         0         0         0
+
+  Columns 7 through 9
+
+         0         0         0
+         0         0         0
+         0         0         0
+         0         0         0
+
+>> reshape(G,9,4)
+
+ans =
+
+         0         0         0         0
+         0         0         0         0
+         0         0    3.1416         0
+         0         0         0         0
+         0         0         0         0
+         0         0         0         0
+         0         0         0         0
+         0         0         0         0
+         0         0         0         0
+
+>> reshape(G,2,18)
+
+ans =
+
+  Columns 1 through 6
+
+         0         0         0         0         0         0
+         0         0         0         0         0         0
+
+  Columns 7 through 12
+
+         0         0         0         0    3.1416         0
+         0         0         0         0         0         0
+
+  Columns 13 through 18
+
+         0         0         0         0         0         0
+         0         0         0         0         0         0
+
+>> reshape(G,18,2)
+
+ans =
+
+         0         0
+         0         0
+         0    3.1416
+         0         0
+         0         0
+         0         0
+         0         0
+         0         0
+         0         0
+         0         0
+         0         0
+         0         0
+         0         0
+         0         0
+         0         0
+         0         0
+         0         0
+         0         0
+
+>> reshape(G,4,9)
+
+ans =
+
+  Columns 1 through 6
+
+         0         0         0         0         0    3.1416
+         0         0         0         0         0         0
+         0         0         0         0         0         0
+         0         0         0         0         0         0
+
+  Columns 7 through 9
+
+         0         0         0
+         0         0         0
+         0         0         0
+         0         0         0
+
+>> reshape(G,4,9)'
+
+ans =
+
+         0         0         0         0
+         0         0         0         0
+         0         0         0         0
+         0         0         0         0
+         0         0         0         0
+    3.1416         0         0         0
+         0         0         0         0
+         0         0         0         0
+         0         0         0         0
+
+>> H=A
+
+H =
+
+  Columns 1 through 6
+
+         0         0         0         0         0         0
+         0         0         0         0         0         0
+         0         0         0    3.1416         0         0
+         0         0         0         0         0         0
+         0         0         0         0         0         0
+         0         0         0         0         0         0
+         0         0         0         0         0         0
+
+  Column 7
+
+         0
+         0
+         0
+         0
+         0
+         0
+         0
+
+>> [H;[]]
+
+ans =
+
+  Columns 1 through 6
+
+         0         0         0         0         0         0
+         0         0         0         0         0         0
+         0         0         0    3.1416         0         0
+         0         0         0         0         0         0
+         0         0         0         0         0         0
+         0         0         0         0         0         0
+         0         0         0         0         0         0
+
+  Column 7
+
+         0
+         0
+         0
+         0
+         0
+         0
+         0
+
+>> H=A(logical([1 0 1 0 1 1 1]),logical([1 1 0 1 1 1 1]))
+
+H =
+
+         0         0         0         0         0         0
+         0         0    3.1416         0         0         0
+         0         0         0         0         0         0
+         0         0         0         0         0         0
+         0         0         0         0         0         0
+
+>> Z=[i 2i 1+i; -i 4+i 1+2i]
+
+Z =
+
+        0 + 1.0000i        0 + 2.0000i   1.0000 + 1.0000i
+        0 - 1.0000i   4.0000 + 1.0000i   1.0000 + 2.0000i
+
+>> Z'
+
+ans =
+
+        0 - 1.0000i        0 + 1.0000i
+        0 - 2.0000i   4.0000 - 1.0000i
+   1.0000 - 1.0000i   1.0000 - 2.0000i
+
+>> diag(H)
+
+ans =
+
+     0
+     0
+     0
+     0
+     0
+
+>> diag(H,2)
+
+ans =
+
+     0
+     0
+     0
+     0
+
+>> diag(H,3)
+
+ans =
+
+     0
+     0
+     0
+
+>> diag(H,5)
+
+ans =
+
+     0
+
+>> diag(H,6)
+
+ans =
+
+   Empty matrix: 0-by-1
+
+>> diag(1*ones(10,1),0)+diag(2*ones(9,1),1)
+
+ans =
+
+     1     2     0     0     0     0     0     0     0     0
+     0     1     2     0     0     0     0     0     0     0
+     0     0     1     2     0     0     0     0     0     0
+     0     0     0     1     2     0     0     0     0     0
+     0     0     0     0     1     2     0     0     0     0
+     0     0     0     0     0     1     2     0     0     0
+     0     0     0     0     0     0     1     2     0     0
+     0     0     0     0     0     0     0     1     2     0
+     0     0     0     0     0     0     0     0     1     2
+     0     0     0     0     0     0     0     0     0     1
+
+>> diag(1*ones(10,1),0)+diag(2*ones(9,1),1)+diag(3*ones(8,1),2)+diag(4*ones(7,1),3)+diag(5*ones(6,1),4)+diag(6*ones(5,1),5)+diag(7*ones(4,1),6)
+
+ans =
+
+     1     2     3     4     5     6     7     0     0     0
+     0     1     2     3     4     5     6     7     0     0
+     0     0     1     2     3     4     5     6     7     0
+     0     0     0     1     2     3     4     5     6     7
+     0     0     0     0     1     2     3     4     5     6
+     0     0     0     0     0     1     2     3     4     5
+     0     0     0     0     0     0     1     2     3     4
+     0     0     0     0     0     0     0     1     2     3
+     0     0     0     0     0     0     0     0     1     2
+     0     0     0     0     0     0     0     0     0     1
+
+>> diag(1*ones(10,1),0)+diag(2*ones(9,1),1)+diag(3*ones(8,1),2)+diag(4*ones(7,1),3)+diag(5*ones(6,1),4)+diag(6*ones(5,1),5)+diag(7*ones(4,1),6)+diag(8*ones(3,1),7)+diag(9*ones(2,1),8)+diag(10*ones(1,1),9)
+
+ans =
+
+     1     2     3     4     5     6     7     8     9    10
+     0     1     2     3     4     5     6     7     8     9
+     0     0     1     2     3     4     5     6     7     8
+     0     0     0     1     2     3     4     5     6     7
+     0     0     0     0     1     2     3     4     5     6
+     0     0     0     0     0     1     2     3     4     5
+     0     0     0     0     0     0     1     2     3     4
+     0     0     0     0     0     0     0     1     2     3
+     0     0     0     0     0     0     0     0     1     2
+     0     0     0     0     0     0     0     0     0     1
+
+>> diag(1*ones(10,1),0)+diag(2*ones(9,1),1)+diag(3*ones(8,1),2)+diag(4*ones(7,1),3)+diag(5*ones(6,1),4)+diag(6*ones(5,1),5)+diag(7*ones(4,1),6)+diag(8*ones(3,1),7)+diag(9*ones(2,1),8)+diag(10*ones(1,1),9)
+
+ans =
+
+     1     2     3     4     5     6     7     8     9    10
+     0     1     2     3     4     5     6     7     8     9
+     0     0     1     2     3     4     5     6     7     8
+     0     0     0     1     2     3     4     5     6     7
+     0     0     0     0     1     2     3     4     5     6
+     0     0     0     0     0     1     2     3     4     5
+     0     0     0     0     0     0     1     2     3     4
+     0     0     0     0     0     0     0     1     2     3
+     0     0     0     0     0     0     0     0     1     2
+     0     0     0     0     0     0     0     0     0     1
+
+>> diag(1*ones(10,1),0)+diag(2*ones(9,1),1)+diag(3*ones(8,1),2)+diag(4*ones(7,1),3)+diag(5*ones(6,1),4)+diag(6*ones(5,1),5)+diag(7*ones(4,1),6)+diag(8*ones(3,1),7)+diag(9*ones(2,1),8)+diag(10*ones(1,1),9)+diag(2*ones(10,2),0)
+??? Error using ==> plus
+Matrix dimensions must agree.
+ 
+>> diag(1*ones(10,1),0)+diag(2*ones(9,1),1)+diag(3*ones(8,1),2)+diag(4*ones(7,1),3)+diag(5*ones(6,1),4)+diag(6*ones(5,1),5)+diag(7*ones(4,1),6)+diag(8*ones(3,1),7)+diag(9*ones(2,1),8)+diag(10*ones(1,1),9)+diag(2*ones(9,1),0)
+??? Error using ==> plus
+Matrix dimensions must agree.
+ 
+>> diag(1*ones(10,1),0)+diag(2*ones(9,1),1)+diag(3*ones(8,1),2)+diag(4*ones(7,1),3)+diag(5*ones(6,1),4)+diag(6*ones(5,1),5)+diag(7*ones(4,1),6)+diag(8*ones(3,1),7)+diag(9*ones(2,1),8)+diag(10*ones(1,1),9)
+
+ans =
+
+     1     2     3     4     5     6     7     8     9    10
+     0     1     2     3     4     5     6     7     8     9
+     0     0     1     2     3     4     5     6     7     8
+     0     0     0     1     2     3     4     5     6     7
+     0     0     0     0     1     2     3     4     5     6
+     0     0     0     0     0     1     2     3     4     5
+     0     0     0     0     0     0     1     2     3     4
+     0     0     0     0     0     0     0     1     2     3
+     0     0     0     0     0     0     0     0     1     2
+     0     0     0     0     0     0     0     0     0     1
+
+>> diag(1*ones(10,1),0)+diag(2*ones(9,1),1)+diag(3*ones(8,1),2)+diag(4*ones(7,1),3)+diag(5*ones(6,1),4)+diag(6*ones(5,1),5)+diag(7*ones(4,1),6)+diag(8*ones(3,1),7)+diag(9*ones(2,1),8)+diag(10*ones(1,1),9)+diag(2*ones(1,9),0)
+??? Error using ==> plus
+Matrix dimensions must agree.
+ 
+>> diag(1*ones(10,1),0)+diag(2*ones(9,1),1)+diag(3*ones(8,1),2)+diag(4*ones(7,1),3)+diag(5*ones(6,1),4)+diag(6*ones(5,1),5)+diag(7*ones(4,1),6)+diag(8*ones(3,1),7)+diag(9*ones(2,1),8)+diag(10*ones(1,1),9)+diag(2*ones(1,9),1)
+
+ans =
+
+     1     4     3     4     5     6     7     8     9    10
+     0     1     4     3     4     5     6     7     8     9
+     0     0     1     4     3     4     5     6     7     8
+     0     0     0     1     4     3     4     5     6     7
+     0     0     0     0     1     4     3     4     5     6
+     0     0     0     0     0     1     4     3     4     5
+     0     0     0     0     0     0     1     4     3     4
+     0     0     0     0     0     0     0     1     4     3
+     0     0     0     0     0     0     0     0     1     4
+     0     0     0     0     0     0     0     0     0     1
+
+>> diag(1*ones(10,1),0)+diag(2*ones(9,1),1)+diag(3*ones(8,1),2)+diag(4*ones(7,1),3)+diag(5*ones(6,1),4)+diag(6*ones(5,1),5)+diag(7*ones(4,1),6)+diag(8*ones(3,1),7)+diag(9*ones(2,1),8)+diag(10*ones(1,1),9)+diag(2*ones(1,9),-1)
+
+ans =
+
+     1     2     3     4     5     6     7     8     9    10
+     2     1     2     3     4     5     6     7     8     9
+     0     2     1     2     3     4     5     6     7     8
+     0     0     2     1     2     3     4     5     6     7
+     0     0     0     2     1     2     3     4     5     6
+     0     0     0     0     2     1     2     3     4     5
+     0     0     0     0     0     2     1     2     3     4
+     0     0     0     0     0     0     2     1     2     3
+     0     0     0     0     0     0     0     2     1     2
+     0     0     0     0     0     0     0     0     2     1
+
+>> diag(1*ones(10,1),0)+diag(2*ones(9,1),1)+diag(3*ones(8,1),2)+diag(4*ones(7,1),3)+diag(5*ones(6,1),4)+diag(6*ones(5,1),5)+diag(7*ones(4,1),6)+diag(8*ones(3,1),7)+diag(9*ones(2,1),8)+diag(10*ones(1,1),9)+diag(2*ones(1,9),-1)+diag(3*ones(1,8),-2)
+
+ans =
+
+     1     2     3     4     5     6     7     8     9    10
+     2     1     2     3     4     5     6     7     8     9
+     3     2     1     2     3     4     5     6     7     8
+     0     3     2     1     2     3     4     5     6     7
+     0     0     3     2     1     2     3     4     5     6
+     0     0     0     3     2     1     2     3     4     5
+     0     0     0     0     3     2     1     2     3     4
+     0     0     0     0     0     3     2     1     2     3
+     0     0     0     0     0     0     3     2     1     2
+     0     0     0     0     0     0     0     3     2     1
+
+>> diag(1*ones(10,1),0)+diag(2*ones(9,1),1)+diag(3*ones(8,1),2)+diag(4*ones(7,1),3)+diag(5*ones(6,1),4)+diag(6*ones(5,1),5)+diag(7*ones(4,1),6)+diag(8*ones(3,1),7)+diag(9*ones(2,1),8)+diag(10*ones(1,1),9)+diag(2*ones(1,9),-1)+diag(3*ones(1,8),-2)+diag(4*ones(1,7),-3)+diag(5*ones(1,6),-4)+diag(6*ones(1,5),-5)+diag(7*ones(1,4),-6)+diag(8*ones(1,3),-7)+diag(9*ones(1,2),-8)+diag(10*ones(1,1),-9)
+
+ans =
+
+     1     2     3     4     5     6     7     8     9    10
+     2     1     2     3     4     5     6     7     8     9
+     3     2     1     2     3     4     5     6     7     8
+     4     3     2     1     2     3     4     5     6     7
+     5     4     3     2     1     2     3     4     5     6
+     6     5     4     3     2     1     2     3     4     5
+     7     6     5     4     3     2     1     2     3     4
+     8     7     6     5     4     3     2     1     2     3
+     9     8     7     6     5     4     3     2     1     2
+    10     9     8     7     6     5     4     3     2     1
+
+>> P=diag(1*ones(10,1),0)+diag(2*ones(9,1),1)+diag(3*ones(8,1),2)+diag(4*ones(7,1),3)+diag(5*ones(6,1),4)+diag(6*ones(5,1),5)+diag(7*ones(4,1),6)+diag(8*ones(3,1),7)+diag(9*ones(2,1),8)+diag(10*ones(1,1),9)+diag(2*ones(1,9),-1)+diag(3*ones(1,8),-2)+diag(4*ones(1,7),-3)+diag(5*ones(1,6),-4)+diag(6*ones(1,5),-5)+diag(7*ones(1,4),-6)+diag(8*ones(1,3),-7)+diag(9*ones(1,2),-8)+diag(10*ones(1,1),-9)
+
+P =
+
+     1     2     3     4     5     6     7     8     9    10
+     2     1     2     3     4     5     6     7     8     9
+     3     2     1     2     3     4     5     6     7     8
+     4     3     2     1     2     3     4     5     6     7
+     5     4     3     2     1     2     3     4     5     6
+     6     5     4     3     2     1     2     3     4     5
+     7     6     5     4     3     2     1     2     3     4
+     8     7     6     5     4     3     2     1     2     3
+     9     8     7     6     5     4     3     2     1     2
+    10     9     8     7     6     5     4     3     2     1
+
+>> M=rand(10,10)
+
+M =
+
+  Columns 1 through 6
+
+    0.7547    0.2238    0.2575    0.4733    0.5678    0.3371
+    0.2760    0.7513    0.8407    0.3517    0.0759    0.1622
+    0.6797    0.2551    0.2543    0.8308    0.0540    0.7943
+    0.6551    0.5060    0.8143    0.5853    0.5308    0.3112
+    0.1626    0.6991    0.2435    0.5497    0.7792    0.5285
+    0.1190    0.8909    0.9293    0.9172    0.9340    0.1656
+    0.4984    0.9593    0.3500    0.2858    0.1299    0.6020
+    0.9597    0.5472    0.1966    0.7572    0.5688    0.2630
+    0.3404    0.1386    0.2511    0.7537    0.4694    0.6541
+    0.5853    0.1493    0.6160    0.3804    0.0119    0.6892
+
+  Columns 7 through 10
+
+    0.7482    0.4427    0.8001    0.1450
+    0.4505    0.1067    0.4314    0.8530
+    0.0838    0.9619    0.9106    0.6221
+    0.2290    0.0046    0.1818    0.3510
+    0.9133    0.7749    0.2638    0.5132
+    0.1524    0.8173    0.1455    0.4018
+    0.8258    0.8687    0.1361    0.0760
+    0.5383    0.0844    0.8693    0.2399
+    0.9961    0.3998    0.5797    0.1233
+    0.0782    0.2599    0.5499    0.1839
+
+>> N=rand(10,10)
+
+N =
+
+  Columns 1 through 6
+
+    0.2400    0.1112    0.0598    0.4509    0.0811    0.7948
+    0.4173    0.7803    0.2348    0.5470    0.9294    0.6443
+    0.0497    0.3897    0.3532    0.2963    0.7757    0.3786
+    0.9027    0.2417    0.8212    0.7447    0.4868    0.8116
+    0.9448    0.4039    0.0154    0.1890    0.4359    0.5328
+    0.4909    0.0965    0.0430    0.6868    0.4468    0.3507
+    0.4893    0.1320    0.1690    0.1835    0.3063    0.9390
+    0.3377    0.9421    0.6491    0.3685    0.5085    0.8759
+    0.9001    0.9561    0.7317    0.6256    0.5108    0.5502
+    0.3692    0.5752    0.6477    0.7802    0.8176    0.6225
+
+  Columns 7 through 10
+
+    0.5870    0.4357    0.4087    0.5079
+    0.2077    0.3111    0.5949    0.0855
+    0.3012    0.9234    0.2622    0.2625
+    0.4709    0.4302    0.6028    0.8010
+    0.2305    0.1848    0.7112    0.0292
+    0.8443    0.9049    0.2217    0.9289
+    0.1948    0.9797    0.1174    0.7303
+    0.2259    0.4389    0.2967    0.4886
+    0.1707    0.1111    0.3188    0.5785
+    0.2277    0.2581    0.4242    0.2373
+
+>> M*N
+
+ans =
+
+  Columns 1 through 6
+
+    2.7056    2.0993    1.6936    2.1444    2.0790    3.2671
+    1.8499    2.1389    1.8003    2.2296    2.7595    2.6893
+    2.8882    2.8187    2.6154    3.1207    2.7609    3.5920
+    1.9982    1.5812    1.3498    1.9946    2.2627    2.5595
+    2.9701    2.5550    1.9289    2.4661    2.9234    3.7196
+    2.8681    2.8458    2.2422    2.5233    3.3512    3.5098
+    2.0614    2.2211    1.4935    2.1201    2.4945    3.3176
+    2.9813    2.1682    1.8344    2.5033    2.3210    3.4067
+    2.7866    1.8120    1.7278    2.1919    2.1203    3.2274
+    1.6151    1.4716    1.3332    1.8846    1.7497    2.0695
+
+  Columns 7 through 10
+
+    1.6208    2.3034    1.8087    2.4388
+    1.2711    2.1986    1.6660    1.6928
+    2.1336    2.4624    2.0610    3.0443
+    1.5523    2.1634    1.8167    1.7211
+    1.7136    2.7686    2.1879    2.4804
+    1.6526    2.5320    2.5534    1.9865
+    1.6677    2.7555    1.6946    2.3432
+    1.7730    2.1618    2.1558    2.4475
+    1.7310    2.6738    1.6934    2.7631
+    1.5337    1.9590    1.2198    1.9628
+
+>> M.*N
+
+ans =
+
+  Columns 1 through 6
+
+    0.1811    0.0249    0.0154    0.2134    0.0461    0.2680
+    0.1152    0.5862    0.1974    0.1924    0.0705    0.1045
+    0.0338    0.0994    0.0898    0.2462    0.0418    0.3007
+    0.5914    0.1223    0.6687    0.4358    0.2584    0.2526
+    0.1536    0.2824    0.0038    0.1039    0.3396    0.2816
+    0.0584    0.0859    0.0400    0.6299    0.4173    0.0581
+    0.2438    0.1266    0.0591    0.0525    0.0398    0.5653
+    0.3241    0.5155    0.1276    0.2790    0.2893    0.2303
+    0.3064    0.1325    0.1837    0.4715    0.2398    0.3598
+    0.2161    0.0859    0.3990    0.2968    0.0097    0.4290
+
+  Columns 7 through 10
+
+    0.4392    0.1929    0.3270    0.0736
+    0.0936    0.0332    0.2566    0.0729
+    0.0253    0.8882    0.2388    0.1633
+    0.1078    0.0020    0.1096    0.2811
+    0.2105    0.1432    0.1876    0.0150
+    0.1287    0.7396    0.0323    0.3732
+    0.1608    0.8511    0.0160    0.0555
+    0.1216    0.0371    0.2579    0.1172
+    0.1700    0.0444    0.1848    0.0713
+    0.0178    0.0671    0.2332    0.0436
+
+>> d=rand(10,1)
+
+d =
+
+    0.4588
+    0.9631
+    0.5468
+    0.5211
+    0.2316
+    0.4889
+    0.6241
+    0.6791
+    0.3955
+    0.3674
+
+>> C\d
+??? Error using ==> mldivide
+Matrix dimensions must agree.
+ 
+>> C/d
+??? Error using ==> mldivide
+Matrix dimensions must agree.
+ 
+>> inv(N)
+
+ans =
+
+  Columns 1 through 6
+
+   -1.3181   -2.3550   -0.9449   -1.0117    2.0625    0.9918
+    1.7776    0.4927    1.4912   -0.9206   -0.6100   -0.9222
+   -0.7969   -2.1348    0.3287    0.4623    0.8158    0.0502
+    4.7062    0.3208    3.0246   -1.5482   -1.8338   -2.6122
+   -5.4746    0.7185   -4.0769    1.1901    1.2218    3.3159
+   -1.5105   -1.3153   -2.5084   -0.5692    1.3421    1.1143
+   -3.9876   -4.2210   -3.5692   -0.9285    3.7928    4.1194
+    3.5663   -0.7021    4.0544   -1.2024   -0.6766   -2.3940
+    4.3862    4.7161    4.1066    2.4626   -3.2093   -3.6818
+   -0.6239    4.6010   -0.6846    2.8235   -2.8252    0.0283
+
+  Columns 7 through 10
+
+    0.4142    0.9064   -0.6030    2.3229
+   -0.3445   -1.1894    2.5233   -1.4815
+   -0.5900    1.4738   -0.9517    1.3552
+    0.5397   -6.0526    5.3811   -0.1739
+    0.0538    5.1365   -5.7092    1.9975
+    0.7088    2.9300   -2.9175    2.7741
+   -1.3124    6.9192   -5.9064    4.7380
+    0.4581   -4.3166    4.2087   -1.1337
+   -0.7460   -5.4029    4.4567   -6.5798
+    0.0764   -0.3200    0.1746   -4.6476
+
+>> inv(N)*d
+
+ans =
+
+   -1.4652
+    0.4646
+   -1.0332
+   -0.0957
+    0.4727
+   -0.4749
+   -2.1532
+   -0.1742
+    2.7504
+    2.7932
+
+>> C\d
+??? Error using ==> mldivide
+Matrix dimensions must agree.
+ 
+>> N\d
+
+ans =
+
+   -1.4652
+    0.4646
+   -1.0332
+   -0.0957
+    0.4727
+   -0.4749
+   -2.1532
+   -0.1742
+    2.7504
+    2.7932
+
+>> inf(N)*d==N\d
+??? Error using ==> inf
+Size vector must be a row vector with real elements.
+ 
+>> inv(N)*d==N\d
+
+ans =
+
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+
+>> inv(N)*d>N\d
+
+ans =
+
+     0
+     1
+     0
+     1
+     0
+     0
+     0
+     1
+     1
+     1
+
+>> inv(N)*d<N\d
+
+ans =
+
+     1
+     0
+     1
+     0
+     1
+     1
+     1
+     0
+     0
+     0
+
+>> N\d
+
+ans =
+
+   -1.4652
+    0.4646
+   -1.0332
+   -0.0957
+    0.4727
+   -0.4749
+   -2.1532
+   -0.1742
+    2.7504
+    2.7932
+
+>> k=N\d if N\d>0
+??? k=N\d if N\d>0
+          |
+Error: Illegal use of reserved keyword "if".
+ 
+>> dodatnie=N\d>0
+
+dodatnie =
+
+     0
+     1
+     0
+     0
+     1
+     0
+     0
+     0
+     1
+     1
+
+>> k=N\d(logical([0 1 0 0 1 0 0 0 1 1]),1)
+??? Error using ==> mldivide
+Matrix dimensions must agree.
+ 
+>> k=N\d(logical([0 1 0 0 1 0 0 0 1 1]))
+??? Error using ==> mldivide
+Matrix dimensions must agree.
+ 
+>> k=N\d(logical([0 1 0 0 1 0 0 0 1 1]),:)
+??? Error using ==> mldivide
+Matrix dimensions must agree.
+ 
+>> k=(N\d)(logical([0 1 0 0 1 0 0 0 1 1]))
+??? k=(N\d)(logical([0 1 0 0 1 0 0 0 1 1]))
+           |
+Error: Unbalanced or unexpected parenthesis or bracket.
+ 
+>> k=N\d
+
+k =
+
+   -1.4652
+    0.4646
+   -1.0332
+   -0.0957
+    0.4727
+   -0.4749
+   -2.1532
+   -0.1742
+    2.7504
+    2.7932
+
+>> k=k(logical([0 1 0 0 1 0 0 0 1 1])
+??? k=k(logical([0 1 0 0 1 0 0 0 1 1])
+                                      |
+Error: Expression or statement is incorrect--possibly unbalanced (,
+{, or [.
+ 
+>> k=k(logical([0 1 0 0 1 0 0 0 1 1],1)
+??? k=k(logical([0 1 0 0 1 0 0 0 1 1],1)
+                                        |
+Error: Expression or statement is incorrect--possibly unbalanced (,
+{, or [.
+ 
+>> k=k(logical([0 1 0 0 1 0 0 0 1 1]),1)
+
+k =
+
+    0.4646
+    0.4727
+    2.7504
+    2.7932
+
+>> imina=['Halinka' 'Malinka' 'Gra¿ynka' 'Stanis³awa' 'Karolina']
+
+imina =
+
+HalinkaMalinkaGra¿ynkaStanis³awaKarolina
+
+>> imina=['Halinka' 'Malinka' 'Gra¿ynka' 'Stanis³awa' "Karolina"]
+??? imina=['Halinka' 'Malinka' 'Gra¿ynka' 'Stanis³awa' "Karolina"]
+                                                       |
+Error: The input character is not valid in MATLAB statements or
+expressions.
+ 
+>> imina=['Halinka' 'Malinka' 'Gra¿ynka' 'Stanis³awa' 'Karolina']
+
+imina =
+
+HalinkaMalinkaGra¿ynkaStanis³awaKarolina
+
+>> imiona=['Halinka' 'Malinka' 'Gra¿ynka' 'Stanis³awa' 'Karolina']
+
+imiona =
+
+HalinkaMalinkaGra¿ynkaStanis³awaKarolina
+
+>> imiona=['Halinka';'Malinka';'Gra¿ynka';'Stanis³awa';'Karolina']
+??? Error using ==> vertcat
+CAT arguments dimensions are not consistent.
+ 
+>> imiona=['Halinka','Malinka','Gra¿ynka','Stanis³awa','Karolina']
+
+imiona =
+
+HalinkaMalinkaGra¿ynkaStanis³awaKarolina
+
+>> imiona=['Halinka' 'Malinka' 'Gra¿ynka' 'Stanis³awa' 'Karolina']
+
+imiona =
+
+HalinkaMalinkaGra¿ynkaStanis³awaKarolina
+
+>> imiona(1)
+
+ans =
+
+H
+
+>> imiona(2)
+
+ans =
+
+a
+
+>> imiona(1,1)
+
+ans =
+
+H
+
+>> imiona(1,5)
+
+ans =
+
+n
+
+>> imiona(2,1)
+??? Index exceeds matrix dimensions.
+ 
+>> imiona=['Halinka   ' 'Malinka   ' 'Gra¿ynka  ' 'Stanis³awa' 'Karolina  ']
+
+imiona =
+
+Halinka   Malinka   Gra¿ynka  Stanis³awaKarolina  
+
+>> imiona=['Halinka   ';'Malinka   ';'Gra¿ynka  ';'Stanis³awa';'Karolina  ']
+
+imiona =
+
+Halinka   
+Malinka   
+Gra¿ynka  
+Stanis³awa
+Karolina  
+
+>> imiona(1,1)
+
+ans =
+
+H
+
+>> imiona(3,1)
+
+ans =
+
+G
+
+>> nazwiska=[blanks(10);blanks(10);blanks(10);blanks(10);blanks(10)];
+>> nazwiska(1,:)=testu
+??? Undefined function or variable 'testu'.
+ 
+>> nazwiska(1,:)='testu'
+??? Subscripted assignment dimension mismatch.
+ 
+>> nazwiska(1,:)='testu     '
+
+nazwiska =
+
+testu     
+          
+          
+          
+          
+
+>> nazwiska(2,:)='paryska   '
+
+nazwiska =
+
+testu     
+paryska   
+          
+          
+          
+
+>> nazwiska(3,:)='kleina    '
+
+nazwiska =
+
+testu     
+paryska   
+kleina    
+          
+          
+
+>> nazwiska(4,:)='animu     '
+
+nazwiska =
+
+testu     
+paryska   
+kleina    
+animu     
+          
+
+>> nazwiska(5,:)='kopenhagen'
+
+nazwiska =
+
+testu     
+paryska   
+kleina    
+animu     
+kopenhagen
+
+>> upper(imiona(:,1)
+??? upper(imiona(:,1)
+                     |
+Error: Expression or statement is incorrect--possibly unbalanced (,
+{, or [.
+ 
+>> upper(imiona(:,1))
+
+ans =
+
+H
+M
+G
+S
+K
+
+>> upper(nazwiska(:,1))
+
+ans =
+
+T
+P
+K
+A
+K
+
+>> nazwiska
+
+nazwiska =
+
+testu     
+paryska   
+kleina    
+animu     
+kopenhagen
+
+>> nazwiska(:,1)=upper(nazwiska(:,1))
+
+nazwiska =
+
+Testu     
+Paryska   
+Kleina    
+Animu     
+Kopenhagen
+
+>> imiona(:,1)=upper(imiona(:,1))
+
+imiona =
+
+Halinka   
+Malinka   
+Gra¿ynka  
+Stanis³awa
+Karolina  
+
+>> razem=imiona+nazwiska
+
+razem =
+
+   156   198   223   221   227   139   129    64    64    64
+   157   194   222   226   225   214   194    64    64    64
+   146   222   198   485   231   207   139   129    64    64
+   148   226   202   219   222   147   354   129   151   129
+   150   208   226   212   218   209   207   200   133   142
+
+>> razem='imiona'+'nazwiska'
+??? Error using ==> plus
+Matrix dimensions must agree.
+ 
+>> razem=imiona(:)+nazwiska(:)
+
+razem =
+
+   156
+   157
+   146
+   148
+   150
+   198
+   194
+   222
+   226
+   208
+   223
+   222
+   198
+   202
+   226
+   221
+   226
+   485
+   219
+   212
+   227
+   225
+   231
+   222
+   218
+   139
+   214
+   207
+   147
+   209
+   129
+   194
+   139
+   354
+   207
+    64
+    64
+   129
+   129
+   200
+    64
+    64
+    64
+   151
+   133
+    64
+    64
+    64
+   129
+   142
+
+>> razem=strcat(imiona,nazwiska)
+
+razem =
+
+HalinkaTestu      
+MalinkaParyska    
+Gra¿ynkaKleina    
+Stanis³awaAnimu   
+KarolinaKopenhagen
+
+>> razem=strcat(nazwiska,imiona)
+
+razem =
+
+TestuHalinka      
+ParyskaMalinka    
+KleinaGra¿ynka    
+AnimuStanis³awa   
+KopenhagenKarolina
+
+>> sort(razem)
+
+ans =
+
+AaeenHGMaiKa      
+KeiinSaaaliaaa    
+Klpmsaagenknka    
+Pnrtuhalinsnkoa   
+Tosyuktrn¿y³rwlina
+
+>> sort(razem)
+
+ans =
+
+AaeenHGMaiKa      
+KeiinSaaaliaaa    
+Klpmsaagenknka    
+Pnrtuhalinsnkoa   
+Tosyuktrn¿y³rwlina
+
+>> razem
+
+razem =
+
+TestuHalinka      
+ParyskaMalinka    
+KleinaGra¿ynka    
+AnimuStanis³awa   
+KopenhagenKarolina
+
+>> 

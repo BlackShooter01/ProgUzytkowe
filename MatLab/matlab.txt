@@ -1706,4 +1706,89 @@ Inputs must be a scalar and a square matrix.
 } 
 sum((-1)^(1:40)/factorial(2.*(1:40)+1))
 {??? Error using ==> mpower
-Inputs must be a scalar and
+Inputs must be a scalar and a square matrix.
+} 
+sum((-1)^(1:40)/factorial(2.*(1:40)+1))
+{??? Error using ==> mpower
+Inputs must be a scalar and a square matrix.
+} 
+sum(1./(1:1000).^2
+??? sum(1./(1:1000).^2
+                      |
+{Error: Expression or statement is incorrect--possibly unbalanced (, {, or [.
+} 
+sum(1./(1:1000).^2)
+
+ans =
+
+    1.6439
+
+sind(78)
+
+ans =
+
+    0.9781
+
+sin(78/180*pi)
+{??? Subscript indices must either be real positive integers or logicals.
+} 
+sin((78/180)*pi)
+{??? Subscript indices must either be real positive integers or logicals.
+} 
+sin(pi*(78/180))
+{??? Subscript indices must either be real positive integers or logicals.
+} 
+sin(pi*(30/180))
+{??? Subscript indices must either be real positive integers or logicals.
+} 
+A(7,7)=1
+
+A =
+
+     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0
+     0     0     0     0     0     0     1
+
+A(2,3)
+
+ans =
+
+     0
+
+A(7,1)=1
+
+A =
+
+     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0
+     1     0     0     0     0     0     1
+
+A(3,4)=pi
+
+A =
+
+         0         0         0         0         0         0         0
+         0         0         0         0         0         0         0
+         0         0         0    3.1416         0         0         0
+         0         0         0         0         0         0         0
+         0         0         0         0         0         0         0
+         0         0         0         0         0         0         0
+    1.0000         0         0         0         0         0    1.0000
+
+B(3,3);
+{??? Undefined function or method 'B' for input arguments of type 'double'.
+} 
+B=(2 3 4, 3 4 5, 4 5 6)
+??? B=(2 3 4, 3 4 5, 4 5 6)
+         |
+{Error: Unexpected MATLAB expression.
+} 
+uiimport('D:\patryk_wojciekian\ProgUzytkowe\MatLab\matlab.txt')
