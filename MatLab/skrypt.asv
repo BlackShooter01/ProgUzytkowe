@@ -1,0 +1,9 @@
+%%opis skryptu
+x=linspace(-
+y1=x.*sin(x);
+y2=x.*cos(x);
+figure(1)
+hold on
+plot(x,y1,'r');
+plot(x,y2,'g');
+hold off

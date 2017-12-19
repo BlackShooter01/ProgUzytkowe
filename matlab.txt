@@ -1,0 +1,1794 @@
+pi
+100*pi
+
+ans =
+
+  314.1593
+
+format hex
+100*pi
+
+ans =
+
+   4073a28c59d5433b
+
+format short
+100*pi
+
+ans =
+
+  314.1593
+
+format long
+100*pi
+
+ans =
+
+    3.141592653589793e+002
+
+format int
+{??? Error using ==> format
+Unknown command option.
+} 
+format rat
+100*pi
+
+ans =
+
+   13823/44    
+
+2^2
+
+ans =
+
+       4       
+
+(1+2^4)/((1/(2+3^(1/2)))-3)
+
+ans =
+
+   -3273/526   
+
+format short
+(1+2^4)/((1/(2+3^(1/2)))-3)
+
+ans =
+
+   -6.2224
+
+(1+(1/2345))^2345
+
+ans =
+
+    2.7177
+
+e
+{??? Undefined function or variable 'e'.
+} 
+exp(2345)
+
+ans =
+
+   Inf
+
+exp()
+{??? Error using ==> exp
+Not enough input arguments.
+} 
+(1/23456)^23456
+
+ans =
+
+     0
+
+e(10)
+{??? Undefined function or method 'e' for input arguments of type 'double'.
+} 
+exp(10)
+
+ans =
+
+  2.2026e+004
+
+exp(1)
+
+ans =
+
+    2.7183
+
+(1+1/23456)^23456
+
+ans =
+
+    2.7182
+
+uiopen('D:\patryk_wojciekian\ProgUzytkowe\MatLab\matlab.txt',1)
+uiopen('D:\patryk_wojciekian\ProgUzytkowe\MatLab\matlab.txt',1)
+helpview([docroot '/techdoc/env_csh/env_csh.map'], 'shortcut_on_toolbar', 'CSHelpWindow');
+(sqrt(2)-2^(1/4))/(2^(1/5)-2^(1/6))
+
+ans =
+
+    8.5761
+
+2^(3^((1/3)*pi))
+
+ans =
+
+    8.9362
+
+format rat
+pi=pi
+
+pi =
+
+     355/113   
+
+e=exp(1)
+
+e =
+
+    1457/536   
+
+format short
+format rat
+((23/25)-(23/29))/(1.4-(3/(17-27/28)))
+
+ans =
+
+     523/4999  
+
+diary('on')
+test
+{??? Undefined function or variable 'test'.
+} 
+(0.5-(7.1-(12/17))/(17-(27/(2+(3/7)))))
+
+ans =
+
+    -587/1000  
+
+(log10(5+sin(8)^2))^(1/6)+atan(5*pi)
+
+ans =
+
+    1630/661   
+
+r=6.32
+
+r =
+
+     158/25    
+
+P=pi*r^2
+
+P =
+
+    3639/29    
+
+Ob=2*pi*r
+
+Ob =
+
+   23667/596   
+
+format short
+Ob=2*pi*r
+
+Ob =
+
+   39.7097
+
+V=(4/3)*pi*r^3
+
+V =
+
+  1.0574e+003
+
+format long
+V=(4/3)*pi*r^3
+
+V =
+
+    1.057401310094171e+003
+
+format short
+format rat
+V=(4/3)*pi*r^3
+
+V =
+
+  160725/152   
+
+format short
+Pp=4*pi*r^2
+
+Pp =
+
+  501.9310
+
+r=7.33
+
+r =
+
+    7.3300
+
+R=22.54
+
+R =
+
+   22.5400
+
+Storus=4*pi^2*r*R
+
+Storus =
+
+  6.5226e+003
+
+Vtorus=2*pi^2*R*r^2
+
+Vtorus =
+
+  2.3905e+004
+
+sin(pi/2)
+
+ans =
+
+     1
+
+cos(60)
+
+ans =
+
+   -0.9524
+
+cos(pi/3)
+
+ans =
+
+    0.5000
+
+sin(pi*(78/180))
+
+ans =
+
+    0.9781
+
+tan(pi/9)
+
+ans =
+
+    0.3640
+
+ln(2.718)
+{??? Undefined function or method 'ln' for input arguments of type 'double'.
+} 
+log(1)
+
+ans =
+
+     0
+
+log(2)
+
+ans =
+
+    0.6931
+
+log(3)
+
+ans =
+
+    1.0986
+
+log10(3)
+
+ans =
+
+    0.4771
+
+log(2.718)
+
+ans =
+
+    0.9999
+
+log10(10)
+
+ans =
+
+     1
+
+tg(pi*(89/180))
+{??? Undefined function or method 'tg' for input arguments of type 'double'.
+} 
+tan(pi*(89/180))
+
+ans =
+
+   57.2900
+
+asin(0.5)
+
+ans =
+
+    0.5236
+
+atan(100000)
+
+ans =
+
+    1.5708
+
+atan(100000*(pi/180))
+
+ans =
+
+    1.5702
+
+exp(exp(1))
+
+ans =
+
+   15.1543
+
+log(-4)
+
+ans =
+
+   1.3863 + 3.1416i
+
+sqrt(-16)
+
+ans =
+
+        0 + 4.0000i
+
+asin(2)
+
+ans =
+
+   1.5708 - 1.3170i
+
+acos(-10)
+
+ans =
+
+   3.1416 - 2.9932i
+
+exp(2*pi*i)
+
+ans =
+
+   1.0000 - 0.0000i
+
+sin(3+4i)
+
+ans =
+
+   3.8537 -27.0168i
+
+sinh(4)
+
+ans =
+
+   27.2899
+
+x=(pi/6)
+
+x =
+
+    0.5236
+
+sin(x)
+
+ans =
+
+    0.5000
+
+cos(x)
+
+ans =
+
+    0.8660
+
+tan(x)
+
+ans =
+
+    0.5774
+
+ctan(x)
+{??? Undefined function or method 'ctan' for input arguments of type 'double'.
+} 
+1/tan(x)
+
+ans =
+
+    1.7321
+
+asin(x)
+
+ans =
+
+    0.5511
+
+exp(x)
+
+ans =
+
+    1.6881
+
+sin(x)/cos(x)
+
+ans =
+
+    0.5774
+
+sin((5/180)*pi)^2+cos((5/180)*pi)^2
+
+ans =
+
+     1
+
+x1=a
+{??? Undefined function or variable 'a'.
+} 
+a=1
+
+a =
+
+     1
+
+delta=b^2-4*a*c
+{??? Undefined function or variable 'b'.
+} 
+exp(1)
+
+ans =
+
+    2.7183
+
+exp(1)
+
+ans =
+
+    2.7183
+
+a=3
+
+a =
+
+     3
+
+b=-2
+
+b =
+
+    -2
+
+c=-1
+
+c =
+
+    -1
+
+delta=b^2-4*a*c
+
+delta =
+
+    16
+
+x1=sqrt((delta)-b)/(2*a)
+
+x1 =
+
+    0.7071
+
+x2=-sqrt((delta)-b)/(2*a)
+
+x2 =
+
+   -0.7071
+
+x1=(sqrt(delta)-b)/(2*a)
+
+x1 =
+
+     1
+
+x2=(-sqrt(delta)-b)/(2*a)
+
+x2 =
+
+   -0.3333
+
+a=-5
+
+a =
+
+    -5
+
+b=-6
+
+b =
+
+    -6
+
+c=5
+
+c =
+
+     5
+
+delta=b^2-4*a*c
+
+delta =
+
+   136
+
+x1=(sqrt(delta)-b)/(2*a)
+
+x1 =
+
+   -1.7662
+
+x2=(-sqrt(delta)-b)/(2*a)
+
+x2 =
+
+    0.5662
+
+a=1
+
+a =
+
+     1
+
+b=-4
+
+b =
+
+    -4
+
+c=5
+
+c =
+
+     5
+
+delta=b^2-4*a*c
+
+delta =
+
+    -4
+
+x1=(sqrt(delta)-b)/(2*a)
+
+x1 =
+
+   2.0000 + 1.0000i
+
+x2=(-sqrt(delta)-b)/(2*a)
+
+x2 =
+
+   2.0000 - 1.0000i
+
+a=121
+
+a =
+
+   121
+
+b=211
+
+b =
+
+   211
+
+c=-41
+
+c =
+
+   -41
+
+delta=b^2-4*a*c
+
+delta =
+
+       64365
+
+x1=(sqrt(delta)-b)/(2*a)
+
+x1 =
+
+    0.1765
+
+x2=(-sqrt(delta)-b)/(2*a)
+
+x2 =
+
+   -1.9203
+
+a=7
+
+a =
+
+     7
+
+b=8
+
+b =
+
+     8
+
+c=73
+
+c =
+
+    73
+
+delta=b^2-4*a*c
+
+delta =
+
+       -1980
+
+x1=(sqrt(delta)-b)/(2*a)
+
+x1 =
+
+  -0.5714 + 3.1784i
+
+x2=(-sqrt(delta)-b)/(2*a)
+
+x2 =
+
+  -0.5714 - 3.1784i
+
+1:1:10
+
+ans =
+
+     1     2     3     4     5     6     7     8     9    10
+
+1:1:100
+
+ans =
+
+  Columns 1 through 16
+
+     1     2     3     4     5     6     7     8     9    10    11    12    13    14    15    16
+
+  Columns 17 through 32
+
+    17    18    19    20    21    22    23    24    25    26    27    28    29    30    31    32
+
+  Columns 33 through 48
+
+    33    34    35    36    37    38    39    40    41    42    43    44    45    46    47    48
+
+  Columns 49 through 64
+
+    49    50    51    52    53    54    55    56    57    58    59    60    61    62    63    64
+
+  Columns 65 through 80
+
+    65    66    67    68    69    70    71    72    73    74    75    76    77    78    79    80
+
+  Columns 81 through 96
+
+    81    82    83    84    85    86    87    88    89    90    91    92    93    94    95    96
+
+  Columns 97 through 100
+
+    97    98    99   100
+
+1:1:100;
+11:11:1000
+
+ans =
+
+  Columns 1 through 16
+
+    11    22    33    44    55    66    77    88    99   110   121   132   143   154   165   176
+
+  Columns 17 through 32
+
+   187   198   209   220   231   242   253   264   275   286   297   308   319   330   341   352
+
+  Columns 33 through 48
+
+   363   374   385   396   407   418   429   440   451   462   473   484   495   506   517   528
+
+  Columns 49 through 64
+
+   539   550   561   572   583   594   605   616   627   638   649   660   671   682   693   704
+
+  Columns 65 through 80
+
+   715   726   737   748   759   770   781   792   803   814   825   836   847   858   869   880
+
+  Columns 81 through 90
+
+   891   902   913   924   935   946   957   968   979   990
+
+linspace(1,2,70)
+
+ans =
+
+  Columns 1 through 9
+
+    1.0000    1.0145    1.0290    1.0435    1.0580    1.0725    1.0870    1.1014    1.1159
+
+  Columns 10 through 18
+
+    1.1304    1.1449    1.1594    1.1739    1.1884    1.2029    1.2174    1.2319    1.2464
+
+  Columns 19 through 27
+
+    1.2609    1.2754    1.2899    1.3043    1.3188    1.3333    1.3478    1.3623    1.3768
+
+  Columns 28 through 36
+
+    1.3913    1.4058    1.4203    1.4348    1.4493    1.4638    1.4783    1.4928    1.5072
+
+  Columns 37 through 45
+
+    1.5217    1.5362    1.5507    1.5652    1.5797    1.5942    1.6087    1.6232    1.6377
+
+  Columns 46 through 54
+
+    1.6522    1.6667    1.6812    1.6957    1.7101    1.7246    1.7391    1.7536    1.7681
+
+  Columns 55 through 63
+
+    1.7826    1.7971    1.8116    1.8261    1.8406    1.8551    1.8696    1.8841    1.8986
+
+  Columns 64 through 70
+
+    1.9130    1.9275    1.9420    1.9565    1.9710    1.9855    2.0000
+
+a=[1 2 3]
+
+a =
+
+     1     2     3
+
+b=[4 5 6]
+
+b =
+
+     4     5     6
+
+a
+
+a =
+
+     1     2     3
+
+a.+a'
+??? a.+a'
+      |
+{Error: Unexpected MATLAB operator.
+} 
+a'
+
+ans =
+
+     1
+     2
+     3
+
+a+b'
+{??? Error using ==> plus
+Matrix dimensions must agree.
+} 
+a.+b'
+??? a.+b'
+      |
+{Error: Unexpected MATLAB operator.
+} 
+a.*b
+
+ans =
+
+     4    10    18
+
+a.*b'
+{??? Error using ==> times
+Matrix dimensions must agree.
+} 
+a'.*b
+{??? Error using ==> times
+Matrix dimensions must agree.
+} 
+a'.*b'
+
+ans =
+
+     4
+    10
+    18
+
+sin=(pi/180):(pi/180):(pi/2)
+
+sin =
+
+  Columns 1 through 9
+
+    0.0175    0.0349    0.0524    0.0698    0.0873    0.1047    0.1222    0.1396    0.1571
+
+  Columns 10 through 18
+
+    0.1745    0.1920    0.2094    0.2269    0.2443    0.2618    0.2793    0.2967    0.3142
+
+  Columns 19 through 27
+
+    0.3316    0.3491    0.3665    0.3840    0.4014    0.4189    0.4363    0.4538    0.4712
+
+  Columns 28 through 36
+
+    0.4887    0.5061    0.5236    0.5411    0.5585    0.5760    0.5934    0.6109    0.6283
+
+  Columns 37 through 45
+
+    0.6458    0.6632    0.6807    0.6981    0.7156    0.7330    0.7505    0.7679    0.7854
+
+  Columns 46 through 54
+
+    0.8029    0.8203    0.8378    0.8552    0.8727    0.8901    0.9076    0.9250    0.9425
+
+  Columns 55 through 63
+
+    0.9599    0.9774    0.9948    1.0123    1.0297    1.0472    1.0647    1.0821    1.0996
+
+  Columns 64 through 72
+
+    1.1170    1.1345    1.1519    1.1694    1.1868    1.2043    1.2217    1.2392    1.2566
+
+  Columns 73 through 81
+
+    1.2741    1.2915    1.3090    1.3265    1.3439    1.3614    1.3788    1.3963    1.4137
+
+  Columns 82 through 90
+
+    1.4312    1.4486    1.4661    1.4835    1.5010    1.5184    1.5359    1.5533    1.5708
+
+sin=sin((pi/180):(pi/180):(pi/2))
+{Warning: Integer operands are required for colon operator when used as index} 
+{??? Subscript indices must either be real positive integers or logicals.
+} 
+Tabsin=sin((pi/180):(pi/180):(pi/2))
+{Warning: Integer operands are required for colon operator when used as index} 
+{??? Subscript indices must either be real positive integers or logicals.
+} 
+linspace(sind(0),sind(90),91)
+
+ans =
+
+  Columns 1 through 9
+
+         0    0.0111    0.0222    0.0333    0.0444    0.0556    0.0667    0.0778    0.0889
+
+  Columns 10 through 18
+
+    0.1000    0.1111    0.1222    0.1333    0.1444    0.1556    0.1667    0.1778    0.1889
+
+  Columns 19 through 27
+
+    0.2000    0.2111    0.2222    0.2333    0.2444    0.2556    0.2667    0.2778    0.2889
+
+  Columns 28 through 36
+
+    0.3000    0.3111    0.3222    0.3333    0.3444    0.3556    0.3667    0.3778    0.3889
+
+  Columns 37 through 45
+
+    0.4000    0.4111    0.4222    0.4333    0.4444    0.4556    0.4667    0.4778    0.4889
+
+  Columns 46 through 54
+
+    0.5000    0.5111    0.5222    0.5333    0.5444    0.5556    0.5667    0.5778    0.5889
+
+  Columns 55 through 63
+
+    0.6000    0.6111    0.6222    0.6333    0.6444    0.6556    0.6667    0.6778    0.6889
+
+  Columns 64 through 72
+
+    0.7000    0.7111    0.7222    0.7333    0.7444    0.7556    0.7667    0.7778    0.7889
+
+  Columns 73 through 81
+
+    0.8000    0.8111    0.8222    0.8333    0.8444    0.8556    0.8667    0.8778    0.8889
+
+  Columns 82 through 90
+
+    0.9000    0.9111    0.9222    0.9333    0.9444    0.9556    0.9667    0.9778    0.9889
+
+  Column 91
+
+    1.0000
+
+linspace(cosd(0),cosd(90),91)
+
+ans =
+
+  Columns 1 through 9
+
+    1.0000    0.9889    0.9778    0.9667    0.9556    0.9444    0.9333    0.9222    0.9111
+
+  Columns 10 through 18
+
+    0.9000    0.8889    0.8778    0.8667    0.8556    0.8444    0.8333    0.8222    0.8111
+
+  Columns 19 through 27
+
+    0.8000    0.7889    0.7778    0.7667    0.7556    0.7444    0.7333    0.7222    0.7111
+
+  Columns 28 through 36
+
+    0.7000    0.6889    0.6778    0.6667    0.6556    0.6444    0.6333    0.6222    0.6111
+
+  Columns 37 through 45
+
+    0.6000    0.5889    0.5778    0.5667    0.5556    0.5444    0.5333    0.5222    0.5111
+
+  Columns 46 through 54
+
+    0.5000    0.4889    0.4778    0.4667    0.4556    0.4444    0.4333    0.4222    0.4111
+
+  Columns 55 through 63
+
+    0.4000    0.3889    0.3778    0.3667    0.3556    0.3444    0.3333    0.3222    0.3111
+
+  Columns 64 through 72
+
+    0.3000    0.2889    0.2778    0.2667    0.2556    0.2444    0.2333    0.2222    0.2111
+
+  Columns 73 through 81
+
+    0.2000    0.1889    0.1778    0.1667    0.1556    0.1444    0.1333    0.1222    0.1111
+
+  Columns 82 through 90
+
+    0.1000    0.0889    0.0778    0.0667    0.0556    0.0444    0.0333    0.0222    0.0111
+
+  Column 91
+
+         0
+
+linspace(tand(0),tand(90),91)
+
+ans =
+
+  Columns 1 through 16
+
+   NaN   Inf   Inf   Inf   Inf   Inf   Inf   Inf   Inf   Inf   Inf   Inf   Inf   Inf   Inf   Inf
+
+  Columns 17 through 32
+
+   Inf   Inf   Inf   Inf   Inf   Inf   Inf   Inf   Inf   Inf   Inf   Inf   Inf   Inf   Inf   Inf
+
+  Columns 33 through 48
+
+   Inf   Inf   Inf   Inf   Inf   Inf   Inf   Inf   Inf   Inf   Inf   Inf   Inf   Inf   Inf   Inf
+
+  Columns 49 through 64
+
+   Inf   Inf   Inf   Inf   Inf   Inf   Inf   Inf   Inf   Inf   Inf   Inf   Inf   Inf   Inf   Inf
+
+  Columns 65 through 80
+
+   Inf   Inf   Inf   Inf   Inf   Inf   Inf   Inf   Inf   Inf   Inf   Inf   Inf   Inf   Inf   Inf
+
+  Columns 81 through 91
+
+   Inf   Inf   Inf   Inf   Inf   Inf   Inf   Inf   Inf   Inf   Inf
+
+linspace(tand(1),tand(89),89)
+
+ans =
+
+  Columns 1 through 9
+
+    0.0175    0.6683    1.3191    1.9699    2.6208    3.2716    3.9224    4.5732    5.2240
+
+  Columns 10 through 18
+
+    5.8749    6.5257    7.1765    7.8273    8.4782    9.1290    9.7798   10.4306   11.0815
+
+  Columns 19 through 27
+
+   11.7323   12.3831   13.0339   13.6848   14.3356   14.9864   15.6372   16.2881   16.9389
+
+  Columns 28 through 36
+
+   17.5897   18.2405   18.8913   19.5422   20.1930   20.8438   21.4946   22.1455   22.7963
+
+  Columns 37 through 45
+
+   23.4471   24.0979   24.7488   25.3996   26.0504   26.7012   27.3521   28.0029   28.6537
+
+  Columns 46 through 54
+
+   29.3045   29.9554   30.6062   31.2570   31.9078   32.5587   33.2095   33.8603   34.5111
+
+  Columns 55 through 63
+
+   35.1619   35.8128   36.4636   37.1144   37.7652   38.4161   39.0669   39.7177   40.3685
+
+  Columns 64 through 72
+
+   41.0194   41.6702   42.3210   42.9718   43.6227   44.2735   44.9243   45.5751   46.2260
+
+  Columns 73 through 81
+
+   46.8768   47.5276   48.1784   48.8293   49.4801   50.1309   50.7817   51.4325   52.0834
+
+  Columns 82 through 89
+
+   52.7342   53.3850   54.0358   54.6867   55.3375   55.9883   56.6391   57.2900
+
+linspace(1,100,100)
+
+ans =
+
+  Columns 1 through 16
+
+     1     2     3     4     5     6     7     8     9    10    11    12    13    14    15    16
+
+  Columns 17 through 32
+
+    17    18    19    20    21    22    23    24    25    26    27    28    29    30    31    32
+
+  Columns 33 through 48
+
+    33    34    35    36    37    38    39    40    41    42    43    44    45    46    47    48
+
+  Columns 49 through 64
+
+    49    50    51    52    53    54    55    56    57    58    59    60    61    62    63    64
+
+  Columns 65 through 80
+
+    65    66    67    68    69    70    71    72    73    74    75    76    77    78    79    80
+
+  Columns 81 through 96
+
+    81    82    83    84    85    86    87    88    89    90    91    92    93    94    95    96
+
+  Columns 97 through 100
+
+    97    98    99   100
+
+1./linspace(1,100,100)
+
+ans =
+
+  Columns 1 through 9
+
+    1.0000    0.5000    0.3333    0.2500    0.2000    0.1667    0.1429    0.1250    0.1111
+
+  Columns 10 through 18
+
+    0.1000    0.0909    0.0833    0.0769    0.0714    0.0667    0.0625    0.0588    0.0556
+
+  Columns 19 through 27
+
+    0.0526    0.0500    0.0476    0.0455    0.0435    0.0417    0.0400    0.0385    0.0370
+
+  Columns 28 through 36
+
+    0.0357    0.0345    0.0333    0.0323    0.0313    0.0303    0.0294    0.0286    0.0278
+
+  Columns 37 through 45
+
+    0.0270    0.0263    0.0256    0.0250    0.0244    0.0238    0.0233    0.0227    0.0222
+
+  Columns 46 through 54
+
+    0.0217    0.0213    0.0208    0.0204    0.0200    0.0196    0.0192    0.0189    0.0185
+
+  Columns 55 through 63
+
+    0.0182    0.0179    0.0175    0.0172    0.0169    0.0167    0.0164    0.0161    0.0159
+
+  Columns 64 through 72
+
+    0.0156    0.0154    0.0152    0.0149    0.0147    0.0145    0.0143    0.0141    0.0139
+
+  Columns 73 through 81
+
+    0.0137    0.0135    0.0133    0.0132    0.0130    0.0128    0.0127    0.0125    0.0123
+
+  Columns 82 through 90
+
+    0.0122    0.0120    0.0119    0.0118    0.0116    0.0115    0.0114    0.0112    0.0111
+
+  Columns 91 through 99
+
+    0.0110    0.0109    0.0108    0.0106    0.0105    0.0104    0.0103    0.0102    0.0101
+
+  Column 100
+
+    0.0100
+
+1./linspace(1,100,100).^2
+
+ans =
+
+  Columns 1 through 9
+
+    1.0000    0.2500    0.1111    0.0625    0.0400    0.0278    0.0204    0.0156    0.0123
+
+  Columns 10 through 18
+
+    0.0100    0.0083    0.0069    0.0059    0.0051    0.0044    0.0039    0.0035    0.0031
+
+  Columns 19 through 27
+
+    0.0028    0.0025    0.0023    0.0021    0.0019    0.0017    0.0016    0.0015    0.0014
+
+  Columns 28 through 36
+
+    0.0013    0.0012    0.0011    0.0010    0.0010    0.0009    0.0009    0.0008    0.0008
+
+  Columns 37 through 45
+
+    0.0007    0.0007    0.0007    0.0006    0.0006    0.0006    0.0005    0.0005    0.0005
+
+  Columns 46 through 54
+
+    0.0005    0.0005    0.0004    0.0004    0.0004    0.0004    0.0004    0.0004    0.0003
+
+  Columns 55 through 63
+
+    0.0003    0.0003    0.0003    0.0003    0.0003    0.0003    0.0003    0.0003    0.0003
+
+  Columns 64 through 72
+
+    0.0002    0.0002    0.0002    0.0002    0.0002    0.0002    0.0002    0.0002    0.0002
+
+  Columns 73 through 81
+
+    0.0002    0.0002    0.0002    0.0002    0.0002    0.0002    0.0002    0.0002    0.0002
+
+  Columns 82 through 90
+
+    0.0001    0.0001    0.0001    0.0001    0.0001    0.0001    0.0001    0.0001    0.0001
+
+  Columns 91 through 99
+
+    0.0001    0.0001    0.0001    0.0001    0.0001    0.0001    0.0001    0.0001    0.0001
+
+  Column 100
+
+    0.0001
+
+1./linspace(1,100,100).^(1/2)
+
+ans =
+
+  Columns 1 through 9
+
+    1.0000    0.7071    0.5774    0.5000    0.4472    0.4082    0.3780    0.3536    0.3333
+
+  Columns 10 through 18
+
+    0.3162    0.3015    0.2887    0.2774    0.2673    0.2582    0.2500    0.2425    0.2357
+
+  Columns 19 through 27
+
+    0.2294    0.2236    0.2182    0.2132    0.2085    0.2041    0.2000    0.1961    0.1925
+
+  Columns 28 through 36
+
+    0.1890    0.1857    0.1826    0.1796    0.1768    0.1741    0.1715    0.1690    0.1667
+
+  Columns 37 through 45
+
+    0.1644    0.1622    0.1601    0.1581    0.1562    0.1543    0.1525    0.1508    0.1491
+
+  Columns 46 through 54
+
+    0.1474    0.1459    0.1443    0.1429    0.1414    0.1400    0.1387    0.1374    0.1361
+
+  Columns 55 through 63
+
+    0.1348    0.1336    0.1325    0.1313    0.1302    0.1291    0.1280    0.1270    0.1260
+
+  Columns 64 through 72
+
+    0.1250    0.1240    0.1231    0.1222    0.1213    0.1204    0.1195    0.1187    0.1179
+
+  Columns 73 through 81
+
+    0.1170    0.1162    0.1155    0.1147    0.1140    0.1132    0.1125    0.1118    0.1111
+
+  Columns 82 through 90
+
+    0.1104    0.1098    0.1091    0.1085    0.1078    0.1072    0.1066    0.1060    0.1054
+
+  Columns 91 through 99
+
+    0.1048    0.1043    0.1037    0.1031    0.1026    0.1021    0.1015    0.1010    0.1005
+
+  Column 100
+
+    0.1000
+
+linspace(1,100,100).^(1/linspace(1,100,100))
+{??? Error using ==> mldivide
+Matrix dimensions must agree.
+} 
+linspace(1,100,100).^(1./linspace(1,100,100))
+
+ans =
+
+  Columns 1 through 9
+
+    1.0000    1.4142    1.4422    1.4142    1.3797    1.3480    1.3205    1.2968    1.2765
+
+  Columns 10 through 18
+
+    1.2589    1.2436    1.2301    1.2181    1.2074    1.1979    1.1892    1.1814    1.1742
+
+  Columns 19 through 27
+
+    1.1676    1.1616    1.1560    1.1509    1.1461    1.1416    1.1374    1.1335    1.1298
+
+  Columns 28 through 36
+
+    1.1264    1.1231    1.1200    1.1171    1.1144    1.1118    1.1093    1.1069    1.1047
+
+  Columns 37 through 45
+
+    1.1025    1.1005    1.0985    1.0966    1.0948    1.0931    1.0914    1.0898    1.0883
+
+  Columns 46 through 54
+
+    1.0868    1.0854    1.0840    1.0827    1.0814    1.0801    1.0789    1.0778    1.0767
+
+  Columns 55 through 63
+
+    1.0756    1.0745    1.0735    1.0725    1.0716    1.0706    1.0697    1.0688    1.0680
+
+  Columns 64 through 72
+
+    1.0671    1.0663    1.0655    1.0648    1.0640    1.0633    1.0626    1.0619    1.0612
+
+  Columns 73 through 81
+
+    1.0605    1.0599    1.0593    1.0586    1.0580    1.0574    1.0569    1.0563    1.0558
+
+  Columns 82 through 90
+
+    1.0552    1.0547    1.0542    1.0537    1.0532    1.0527    1.0522    1.0517    1.0513
+
+  Columns 91 through 99
+
+    1.0508    1.0504    1.0499    1.0495    1.0491    1.0487    1.0483    1.0479    1.0475
+
+  Column 100
+
+    1.0471
+
+(1+(1./linspace(1,100,100))).^linspace(1,100,100)
+
+ans =
+
+  Columns 1 through 9
+
+    2.0000    2.2500    2.3704    2.4414    2.4883    2.5216    2.5465    2.5658    2.5812
+
+  Columns 10 through 18
+
+    2.5937    2.6042    2.6130    2.6206    2.6272    2.6329    2.6379    2.6424    2.6464
+
+  Columns 19 through 27
+
+    2.6500    2.6533    2.6563    2.6590    2.6615    2.6637    2.6658    2.6678    2.6696
+
+  Columns 28 through 36
+
+    2.6713    2.6728    2.6743    2.6757    2.6770    2.6782    2.6794    2.6804    2.6815
+
+  Columns 37 through 45
+
+    2.6824    2.6834    2.6842    2.6851    2.6859    2.6866    2.6873    2.6880    2.6887
+
+  Columns 46 through 54
+
+    2.6893    2.6899    2.6905    2.6911    2.6916    2.6921    2.6926    2.6931    2.6935
+
+  Columns 55 through 63
+
+    2.6940    2.6944    2.6948    2.6952    2.6956    2.6960    2.6963    2.6967    2.6970
+
+  Columns 64 through 72
+
+    2.6973    2.6977    2.6980    2.6983    2.6986    2.6988    2.6991    2.6994    2.6996
+
+  Columns 73 through 81
+
+    2.6999    2.7001    2.7004    2.7006    2.7008    2.7011    2.7013    2.7015    2.7017
+
+  Columns 82 through 90
+
+    2.7019    2.7021    2.7023    2.7025    2.7026    2.7028    2.7030    2.7032    2.7033
+
+  Columns 91 through 99
+
+    2.7035    2.7037    2.7038    2.7040    2.7041    2.7043    2.7044    2.7045    2.7047
+
+  Column 100
+
+    2.7048
+
+(linspace(1,100,100).^3-2.*linspace(1,100,100).^2.+4)(2.*linspace(1,100,100).^3.+linspace(1,100,100).^2.+10.*linspace(1,100,100).+14)
+??? (linspace(1,100,100).^3-2.*linspace(1,100,100).^2.+4)(2.*linspace(1,100,100).^3.+linspace(1,100,100).^2.+10.*linspace(1,100,100).+14)
+                                                         |
+{Error: Unbalanced or unexpected parenthesis or bracket.
+} 
+(linspace(1,100,100).^3-2.*linspace(1,100,100).^2.+4)./(2.*linspace(1,100,100).^3.+linspace(1,100,100).^2.+10.*linspace(1,100,100).+14)
+??? (linspace(1,100,100).^3-2.*linspace(1,100,100).^2.+4)./(2.*linspace(1,100,100).^3.+linspace(1,100,100).^2.+10.*linspace(1,100,100).+14)
+                                                                                                                                       |
+{Error: Unexpected MATLAB operator.
+} 
+(linspace(1,100,100).^3-2.*linspace(1,100,100).^2.+4)./(2.*linspace(1,100,100).^3.+linspace(1,100,100).^2.+10.*linspace(1,100,100).+14)
+??? (linspace(1,100,100).^3-2.*linspace(1,100,100).^2.+4)./(2.*linspace(1,100,100).^3.+linspace(1,100,100).^2.+10.*linspace(1,100,100).+14)
+                                                                                                                                       |
+{Error: Unexpected MATLAB operator.
+} 
+(linspace(1,100,100).^3-2.*linspace(1,100,100).^2.+4)./(2.*linspace(1,100,100).^3.+linspace(1,100,100).^2.+10.*linspace(1,100,100))
+
+ans =
+
+  Columns 1 through 9
+
+    0.2308    0.1000    0.1398    0.1957    0.2431    0.2803    0.3093    0.3322    0.3505
+
+  Columns 10 through 18
+
+    0.3655    0.3778    0.3882    0.3970    0.4045    0.4111    0.4168    0.4219    0.4264
+
+  Columns 19 through 27
+
+    0.4304    0.4340    0.4372    0.4402    0.4429    0.4453    0.4476    0.4497    0.4516
+
+  Columns 28 through 36
+
+    0.4534    0.4550    0.4566    0.4580    0.4594    0.4607    0.4618    0.4630    0.4640
+
+  Columns 37 through 45
+
+    0.4650    0.4660    0.4669    0.4677    0.4685    0.4693    0.4700    0.4707    0.4714
+
+  Columns 46 through 54
+
+    0.4720    0.4726    0.4732    0.4738    0.4743    0.4748    0.4753    0.4758    0.4763
+
+  Columns 55 through 63
+
+    0.4767    0.4771    0.4775    0.4779    0.4783    0.4787    0.4790    0.4794    0.4797
+
+  Columns 64 through 72
+
+    0.4800    0.4804    0.4807    0.4810    0.4812    0.4815    0.4818    0.4820    0.4823
+
+  Columns 73 through 81
+
+    0.4825    0.4828    0.4830    0.4832    0.4835    0.4837    0.4839    0.4841    0.4843
+
+  Columns 82 through 90
+
+    0.4845    0.4847    0.4849    0.4850    0.4852    0.4854    0.4856    0.4857    0.4859
+
+  Columns 91 through 99
+
+    0.4860    0.4862    0.4864    0.4865    0.4866    0.4868    0.4869    0.4871    0.4872
+
+  Column 100
+
+    0.4873
+
+(linspace(1,100,100).^3-2.*linspace(1,100,100).^2.+4)./(2.*linspace(1,100,100).^3.+linspace(1,100,100).^2.+10.*linspace(1,100,100).+14)
+??? (linspace(1,100,100).^3-2.*linspace(1,100,100).^2.+4)./(2.*linspace(1,100,100).^3.+linspace(1,100,100).^2.+10.*linspace(1,100,100).+14)
+                                                                                                                                       |
+{Error: Unexpected MATLAB operator.
+} 
+n=linspace(1,100,100)
+
+n =
+
+  Columns 1 through 16
+
+     1     2     3     4     5     6     7     8     9    10    11    12    13    14    15    16
+
+  Columns 17 through 32
+
+    17    18    19    20    21    22    23    24    25    26    27    28    29    30    31    32
+
+  Columns 33 through 48
+
+    33    34    35    36    37    38    39    40    41    42    43    44    45    46    47    48
+
+  Columns 49 through 64
+
+    49    50    51    52    53    54    55    56    57    58    59    60    61    62    63    64
+
+  Columns 65 through 80
+
+    65    66    67    68    69    70    71    72    73    74    75    76    77    78    79    80
+
+  Columns 81 through 96
+
+    81    82    83    84    85    86    87    88    89    90    91    92    93    94    95    96
+
+  Columns 97 through 100
+
+    97    98    99   100
+
+n^3
+{??? Error using ==> mpower
+Inputs must be a scalar and a square matrix.
+} 
+(n.^3.-2.*n.^2.+4)
+
+ans =
+
+  Columns 1 through 8
+
+           3           4          13          36          79         148         249         388
+
+  Columns 9 through 16
+
+         571         804        1093        1444        1863        2356        2929        3588
+
+  Columns 17 through 24
+
+        4339        5188        6141        7204        8383        9684       11113       12676
+
+  Columns 25 through 32
+
+       14379       16228       18229       20388       22711       25204       27873       30724
+
+  Columns 33 through 40
+
+       33763       36996       40429       44068       47919       51988       56281       60804
+
+  Columns 41 through 48
+
+       65563       70564       75813       81316       87079       93108       99409      105988
+
+  Columns 49 through 56
+
+      112851      120004      127453      135204      143263      151636      160329      169348
+
+  Columns 57 through 64
+
+      178699      188388      198421      208804      219543      230644      242113      253956
+
+  Columns 65 through 72
+
+      266179      278788      291789      305188      318991      333204      347833      362884
+
+  Columns 73 through 80
+
+      378363      394276      410629      427428      444679      462388      480561      499204
+
+  Columns 81 through 88
+
+      518323      537924      558013      578596      599679      621268      643369      665988
+
+  Columns 89 through 96
+
+      689131      712804      737013      761764      787063      812916      839329      866308
+
+  Columns 97 through 100
+
+      893859      921988      950701      980004
+
+(n.^3.-2.*n.^2.+4)./(2.*n.^3.+n.^2.+10.*n.+14)
+??? (n.^3.-2.*n.^2.+4)./(2.*n.^3.+n.^2.+10.*n.+14)
+                                              |
+{Error: Unexpected MATLAB operator.
+} 
+(n.^3.-2.*n.^2.+4)./((2.*n.^3.+n.^2.+10.*n).+14)
+??? (n.^3.-2.*n.^2.+4)./((2.*n.^3.+n.^2.+10.*n).+14)
+                                               |
+{Error: Unexpected MATLAB operator.
+} 
+(n.^3.-2.*n.^2.+4)./(2.*n.^3.+n.^2.+10.*n.-(-14))
+??? (n.^3.-2.*n.^2.+4)./(2.*n.^3.+n.^2.+10.*n.-(-14))
+                                              |
+{Error: Unexpected MATLAB operator.
+} 
+(n.^3.-2.*n.^2.+4)./(2.*n.^3.+n.^2.+10.*n+14)
+
+ans =
+
+  Columns 1 through 9
+
+    0.1111    0.0741    0.1215    0.1818    0.2330    0.2731    0.3040    0.3283    0.3475
+
+  Columns 10 through 18
+
+    0.3631    0.3760    0.3867    0.3958    0.4036    0.4103    0.4161    0.4213    0.4259
+
+  Columns 19 through 27
+
+    0.4300    0.4336    0.4369    0.4399    0.4426    0.4451    0.4474    0.4495    0.4514
+
+  Columns 28 through 36
+
+    0.4532    0.4549    0.4565    0.4579    0.4593    0.4606    0.4618    0.4629    0.4640
+
+  Columns 37 through 45
+
+    0.4650    0.4659    0.4668    0.4677    0.4685    0.4693    0.4700    0.4707    0.4714
+
+  Columns 46 through 54
+
+    0.4720    0.4726    0.4732    0.4738    0.4743    0.4748    0.4753    0.4758    0.4762
+
+  Columns 55 through 63
+
+    0.4767    0.4771    0.4775    0.4779    0.4783    0.4787    0.4790    0.4794    0.4797
+
+  Columns 64 through 72
+
+    0.4800    0.4803    0.4807    0.4809    0.4812    0.4815    0.4818    0.4820    0.4823
+
+  Columns 73 through 81
+
+    0.4825    0.4828    0.4830    0.4832    0.4835    0.4837    0.4839    0.4841    0.4843
+
+  Columns 82 through 90
+
+    0.4845    0.4847    0.4849    0.4850    0.4852    0.4854    0.4856    0.4857    0.4859
+
+  Columns 91 through 99
+
+    0.4860    0.4862    0.4863    0.4865    0.4866    0.4868    0.4869    0.4871    0.4872
+
+  Column 100
+
+    0.4873
+
+(n.^3.-2.*n.^2.+4)./(2.*n.^3.+n.^2.+(10.*n).+14)
+??? (n.^3.-2.*n.^2.+4)./(2.*n.^3.+n.^2.+(10.*n).+14)
+                                               |
+{Error: Unexpected MATLAB operator.
+} 
+(n.^3.-2.*n.^2.+4)./(2.*n.^3.+n.^2.+(10.*n)+14)
+
+ans =
+
+  Columns 1 through 9
+
+    0.1111    0.0741    0.1215    0.1818    0.2330    0.2731    0.3040    0.3283    0.3475
+
+  Columns 10 through 18
+
+    0.3631    0.3760    0.3867    0.3958    0.4036    0.4103    0.4161    0.4213    0.4259
+
+  Columns 19 through 27
+
+    0.4300    0.4336    0.4369    0.4399    0.4426    0.4451    0.4474    0.4495    0.4514
+
+  Columns 28 through 36
+
+    0.4532    0.4549    0.4565    0.4579    0.4593    0.4606    0.4618    0.4629    0.4640
+
+  Columns 37 through 45
+
+    0.4650    0.4659    0.4668    0.4677    0.4685    0.4693    0.4700    0.4707    0.4714
+
+  Columns 46 through 54
+
+    0.4720    0.4726    0.4732    0.4738    0.4743    0.4748    0.4753    0.4758    0.4762
+
+  Columns 55 through 63
+
+    0.4767    0.4771    0.4775    0.4779    0.4783    0.4787    0.4790    0.4794    0.4797
+
+  Columns 64 through 72
+
+    0.4800    0.4803    0.4807    0.4809    0.4812    0.4815    0.4818    0.4820    0.4823
+
+  Columns 73 through 81
+
+    0.4825    0.4828    0.4830    0.4832    0.4835    0.4837    0.4839    0.4841    0.4843
+
+  Columns 82 through 90
+
+    0.4845    0.4847    0.4849    0.4850    0.4852    0.4854    0.4856    0.4857    0.4859
+
+  Columns 91 through 99
+
+    0.4860    0.4862    0.4863    0.4865    0.4866    0.4868    0.4869    0.4871    0.4872
+
+  Column 100
+
+    0.4873
+
+uiimport('D:\patryk_wojciekian\ProgUzytkowe\MatLab\matlab.txt')
+uiopen('D:\patryk_wojciekian\ProgUzytkowe\MatLab\matlab.txt', true);
+sum(1/factorial((1:1:20)))
+{??? Error using ==> mldivide
+Matrix dimensions must agree.
+} 
+sum(1/factorial((1:1:20).))
+??? sum(1/factorial((1:1:20).))
+                            |
+{Error: Unexpected MATLAB operator.
+} 
+sum(1/factorial(.(1:1:20)))
+??? sum(1/factorial(.(1:1:20)))
+                    |
+{Error: Unexpected MATLAB operator.
+} 
+sum(1/factorial.((1:1:20)))
+{??? Argument to dynamic structure reference must evaluate to a valid field name
+} 
+1./factorial(1:1:20)
+
+ans =
+
+  Columns 1 through 9
+
+    1.0000    0.5000    0.1667    0.0417    0.0083    0.0014    0.0002    0.0000    0.0000
+
+  Columns 10 through 18
+
+    0.0000    0.0000    0.0000    0.0000    0.0000    0.0000    0.0000    0.0000    0.0000
+
+  Columns 19 through 20
+
+    0.0000    0.0000
+
+sum(1./factorial(1:1:20))
+
+ans =
+
+    1.7183
+
+sum(2.^(1:1:20)./factorial(1:1:20))
+
+ans =
+
+    6.3891
+
+sum((-1)^(1:1:40)/factorial(2.*(1:1:40)+1)
+??? sum((-1)^(1:1:40)/factorial(2.*(1:1:40)+1)
+                                              |
+{Error: Expression or statement is incorrect--possibly unbalanced (, {, or [.
+} 
+sum((-1)^(1:1:40)/factorial((2.*(1:1:40)+1))
+??? sum((-1)^(1:1:40)/factorial((2.*(1:1:40)+1))
+                                                |
+{Error: Expression or statement is incorrect--possibly unbalanced (, {, or [.
+} 
+sum((-1)^(1:1:40)/factorial(2.*(1:1:40)+1))
+{??? Error using ==> mpower
+Inputs must be a scalar and a square matrix.
+} 
+sum((-1)^(1:1:40)./factorial(2.*(1:1:40)+1))
+{??? Error using ==> mpower
+Inputs must be a scalar and a square matrix.
+} 
+sum((-1).^(1:1:200)./(1:1:200))
+
+ans =
+
+   -0.6907
+
+sum((-1)^(1:1:40)./factorial(2*(1:40)+1))
+{??? Error using ==> mpower
+Inputs must be a scalar and a square matrix.
+} 
+sum((-1)^(1:1:40)./factorial(2.*(1:40)+1))
+{??? Error using ==> mpower
+Inputs must be a scalar and a square matrix.
+} 
+sum((-1)^(1:1:40)/factorial(2.*(1:40)+1))
+{??? Error using ==> mpower
+Inputs must be a scalar and a square matrix.
+} 
+sum((-1)^(1:40)/factorial(2.*(1:40)+1))
+{??? Error using ==> mpower
+Inputs must be a scalar and a square matrix.
+} 
+sum((-1)^(1:40)/factorial(2.*(1:40)+1))
+{??? Error using ==> mpower
+Inputs must be a scalar and a square matrix.
+} 
+sum((-1)^(1:40)/factorial(2.*(1:40)+1))
+{??? Error using ==> mpower
+Inputs must be a scalar and a square matrix.
+} 
+sum(1./(1:1000).^2
+??? sum(1./(1:1000).^2
+                      |
+{Error: Expression or statement is incorrect--possibly unbalanced (, {, or [.
+} 
+sum(1./(1:1000).^2)
+
+ans =
+
+    1.6439
+
+sind(78)
+
+ans =
+
+    0.9781
+
+sin(78/180*pi)
+{??? Subscript indices must either be real positive integers or logicals.
+} 
+sin((78/180)*pi)
+{??? Subscript indices must either be real positive integers or logicals.
+} 
+sin(pi*(78/180))
+{??? Subscript indices must either be real positive integers or logicals.
+} 
+sin(pi*(30/180))
+{??? Subscript indices must either be real positive integers or logicals.
+} 
+A(7,7)=1
+
+A =
+
+     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0
+     0     0     0     0     0     0     1
+
+A(2,3)
+
+ans =
+
+     0
+
+A(7,1)=1
+
+A =
+
+     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0
+     1     0     0     0     0     0     1
+
+A(3,4)=pi
+
+A =
+
+         0         0         0         0         0         0         0
+         0         0         0         0         0         0         0
+         0         0         0    3.1416         0         0         0
+         0         0         0         0         0         0         0
+         0         0         0         0         0         0         0
+         0         0         0         0         0         0         0
+    1.0000         0         0         0         0         0    1.0000
+
+B(3,3);
+{??? Undefined function or method 'B' for input arguments of type 'double'.
+} 
+B=(2 3 4, 3 4 5, 4 5 6)
+??? B=(2 3 4, 3 4 5, 4 5 6)
+         |
+{Error: Unexpected MATLAB expression.
+} 
+uiimport('D:\patryk_wojciekian\ProgUzytkowe\MatLab\matlab.txt')
